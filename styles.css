@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(./);
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -202,10 +207,6 @@ button:hover {
     writing-mode: vertical-lr;
     border-radius: 10px;
     background: white;
-}
-
-.progress-1::-moz-progress-bar {
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,213,0,1) 20%, rgba(255,157,0,1) 100%);
 }
 
 
@@ -518,16 +519,13 @@ button:hover {
 .text-21 {
     font-size: 16px;
     color: #575757;
-    width: 100%;
+    width: 60%;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.promo-2 {
-    font-size: 16px;
-    color: #575757;
-    width: 100%;
-    text-align: center;
-}
+
 
 .button {
     background-color: #FB9333;
@@ -565,6 +563,8 @@ button:hover {
     border: none;
     width: 100%;
     outline: none;
+    line-height: 50px;
+    font-size: 24px;
 }
 
 .form {
@@ -582,4 +582,16 @@ button:hover {
 
 .our {
     color: orange;
+    margin-bottom: 30px;
+}
+
+
+.promo { 
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.email::placeholder {
+    color: gray;
+    font-size: 24px;
 }

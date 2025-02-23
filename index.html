@@ -2,6 +2,12 @@
 <html lang="en">
 <link rel="stylesheet" href="styles.css">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Website ever</title>
@@ -61,18 +67,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="title-image-stats">
-                    <span>Daily Calories</span>
-                    <h5>123 Cal</h5>
-                    <div class="container">
-                        <progress class = "progress-1" value="40" max="100" ></progress>
-                        <progress class = "progress-1" value="60" max="100" ></progress>
-                        <progress class = "progress-1" value="50" max="100" ></progress>
-                        <progress class = "progress-1" value="70" max="100" ></progress>
-                        <progress class = "progress-1" value="55" max="100" ></progress>
-                        <progress class = "progress-1" value="65" max="100" ></progress>
-                        <progress class = "progress-1" value="80" max="100"></progress>
-                        <progress class = "progress-1" value="90" max="100"></progress>
+                <div class="calories">
+                    <span class="simple-grey-small">Daily Calories</span><br>
+                    <span class="simple-black">123 Cal</span>
+                    <div class="progress-container">
+                        <div class="bar-container"><div class="bar" style="height: 40%;"></div></div>
+                        <div class="bar-container"><div class="bar" style="height: 55%;"></div></div>
+                        <div class="bar-container"><div class="bar" style="height: 65%;"></div></div>
+                        <div class="bar-container"><div class="bar" style="height: 55%;"></div></div>
+                        <div class="bar-container"><div class="bar" style="height: 45%;"></div></div>
+                        <div class="bar-container"><div class="bar" style="height: 70%;"></div></div>
+                        <div class="bar-container"><div class="bar" style="height: 80%;"></div></div>
+                        <div class="bar-container"><div class="bar" style="height: 90%;"></div></div>
                     </div>
                 </div>
             </div>
@@ -188,43 +194,48 @@
         </div>
     </section>
 
-    <footer>
-        <div>
-            <a href="#"><span class = "jez" style = "color: orange">JEZ</span> SALAD</a>
-            <p> Jez Salad is the pioneer of healthy fruit salad with high nutrition.</p>
-            <span>©Copyright Jez Salad</span>
-        </div>
-        <nav class="nav-links-2">
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#menu">Menu</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About Us</a>
+    <div class="container">
+        <footer class="footer">
+          <div class="footer-info">
+            <h3><span style = "color: orange">JEZ</span> SALAD</h3>
+            <p class = "Jez-Salad-is-the-pioneer">
+              Jez Salad is the pioneer of healthy fruit salad with high nutrition.
+            </p>
+            <p class="copyright-jez-salad">© Copyright Jez Salad</p>
+          </div>
+          <div class="footer-links">
+            <p>Feature</p>
+            <div class = "links-footer">
+              <a href="#menu">Menu</a>
+              <a href="#promo">Promo</a>
+              <a href="#contact">Contact</a>
+              <a href="#about">About Us</a>
             </div>
-        </nav>
-
-        <div class="contact-info">
-            <p>Get in touch</p>
-            <a><img src="location_on.png" alt="Location" />
-            <p>8819 Ohio St. South Gate, CA 90280</p>
+          </div>
+          <div class="contact-info">
+            <p class="main">Get in touch</p>
+            <a>
+              <img src="images/icons/location_icon.svg" />
+              <p>8819 Ohio St. South Gate, CA 90280</p>
             </a>
             <a>
-              <img src="email.png" alt="Email" />
+              <img src="images/icons/email.svg" />
               <p>Ourstudio@hello.com</p>
             </a>
             <a>
-              <img src="call.png" alt="Telephone" />
+              <img src="images/icons/call.svg"/>
               <p>+1 386-688-3295</p>
             </a>
           </div>
           <div class="social-media">
             <div class="social-icons">
-              <a href=""><img src="twitter.png" alt="Twitter" /></a>
-              <a href=""><img src="linkedin.png" alt="LinkedIn" /></a>
-              <a href=""><img src="instagram.png" alt="Instagram" /></a>
+              <a href=""><img src="images/icons/twitter.svg" /></a>
+              <a href=""><img src="images/icons/linkedin.svg"  /></a>
+              <a href=""><img src="images/icons/instagram.svg"/></a>
             </div>
             <p>Follow our social media.</p>
           </div>
-    </footer>
+        </footer>
+      </div>
 </body>
 </html>

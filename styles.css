@@ -187,18 +187,27 @@ button:hover {
 .container {
     display: flex;
     width: 30%;
+    gap: 3px;
+    
+}
+
+.container {
+    display: flex;
     gap: 7px;
 }
-progress {
+
+.progress-1 {
     width: 10px;
-    height: 120px;
-    -webkit-appearance: none;
-    appearance: none;
-    writing-mode: vertical-rl;
-    border: none;
+    height: 13%;
+    writing-mode: vertical-lr;
     border-radius: 10px;
     background: white;
 }
+
+.progress-1::-moz-progress-bar {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,213,0,1) 20%, rgba(255,157,0,1) 100%);
+}
+
 
 .benefit {
     margin-top: 120px;
@@ -369,7 +378,7 @@ progress {
     width: 24px;
 }
 
-.container {
+.container-1 {
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -486,8 +495,91 @@ progress {
 
 .menu-text-1 { 
     color: white;
-    weight: 321;
+    font-weight: 321;
     line-height: 31px;
     font-size: 24px;
+}
 
+.subscribe-page{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    height: fit-content;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-to-get {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.text-21 {
+    font-size: 16px;
+    color: #575757;
+    width: 100%;
+    text-align: center;
+}
+
+.promo-2 {
+    font-size: 16px;
+    color: #575757;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    background-color: #FB9333;
+    color: white;
+    font-weight: 600;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.subscription-button:hover {
+    background-color: #e07d2b;
+}
+
+
+.subscription {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(253, 242, 224);
+    position: relative;
+    padding: 40px 0;
+    gap: 20px;
+    border-radius: 30px;
+    aspect-ratio: 16 / 7;
+
+    z-index: 1;
+}
+
+.email {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.form {
+    margin-top: 50px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 30px;
+    padding: 9px 13px;
+
+
+}
+
+.our {
+    color: orange;
 }

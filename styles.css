@@ -186,6 +186,7 @@ button:hover {
 
 .container {
     display: flex;
+    width: 30%;
     gap: 7px;
 }
 progress {
@@ -430,4 +431,63 @@ progress {
     justify-content: space-between;
     position: absolute;
     right: -7%;
+}
+
+
+.menu-heading {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-subheading {
+    font-weight: 500;
+    font-size: 20px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu-text {
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding: 0px;
+}
+
+.menu-page {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+}
+
+.menu-card {
+    position: relative;
+    height: 510px;
+    width: 28%;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    color: var(--white);
+}
+
+.menu-number {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.menu-text-1 { 
+    color: white;
+    weight: 321;
+    line-height: 31px;
+    font-size: 24px;
+
 }

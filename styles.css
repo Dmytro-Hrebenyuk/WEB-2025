@@ -692,7 +692,7 @@ button:hover {
   }
 
 
-  .calories {
+  .bar {
     width: 20%;
     height: 26%;
     background: rgba(255, 255, 255, 0.9);
@@ -709,7 +709,7 @@ button:hover {
     margin-top: 1000px;
 }
 
-.progress-container {
+.progress-cont {
     display: flex;
     gap: 4px;
     margin-top: 10%;
@@ -720,7 +720,7 @@ button:hover {
     height: 45%;
 }
 
-.bar-container {
+.bar-cont {
     width: 10%;
     height: 100%;
     background: #F5F5F5;
@@ -730,13 +730,14 @@ button:hover {
     overflow: hidden;
 }
 
-.bar {
+.bar-calories {
     width: 100%;
     border-radius: 25px;
     background: linear-gradient(to top, #FB9333, #FFD7A0);
 }
 
 .simple-grey-small { 
+    
     font-size: 16px;
 
 }
